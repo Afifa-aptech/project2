@@ -1,0 +1,793 @@
+/* Custom CSS for navbar background color */
+nav {
+    background-color: #34495e;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Carousel settings for images */
+.carousel-inner .carousel-item img {
+    height: 80vh; /* Sets image height to 80% of viewport height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Adds padding to the section with the cards */
+.section-padding {
+    padding: 130px 0;
+}
+
+/* Adjust cards */
+.card {
+    width: 100%; /* Ensures cards take full width of the column */
+    margin-bottom: 20px; /* Adds space below each card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+    position: relative; /* To make sure hover effect works properly */
+}
+
+/* Optionally, add more spacing inside the card */
+.card-body {
+    padding: 20px; /* Adds padding inside the card body */
+}
+
+/* Centers the card section in a row */
+.row.justify-content-between {
+    display: flex;
+    justify-content: space-between; /* Space out the cards evenly in the row */
+}
+
+/* Make sure the cards are responsive and stay horizontal */
+@media (max-width: 768px) {
+    .row.justify-content-between {
+        display: block; /* Stack the cards vertically on smaller screens */
+    }
+    .card {
+        width: 100%; /* Make sure cards take full width in stacked layout */
+    }
+}
+
+/* Apply dark gray background color to the container */
+.section-padd {
+    background-color: #353434; /* Dark gray */
+    padding: 50px 0; /* Optional: Add padding for better spacing */
+}
+
+/* Hover effect for cards */
+.card-hover:hover {
+    transform: scale(1.05); /* Slightly increases the card size */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow for emphasis */
+}
+
+/* Hover effect for images */
+.img-hover:hover {
+    transform: scale(1.1); /* Slight zoom effect on images */
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+section-padding2{
+    padding: 100px 0;
+}
+
+
+
+
+
+
+/* Custom CSS for section padding */
+.section-padding2 {
+    padding: 80px 0;
+}
+
+/* Styling for cards */
+.card {
+    width: 100%; /* Ensures the card takes up the full width of the column */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+/* Optionally, add more spacing inside the card */
+.card-body {
+    padding: 20px;
+}
+
+/* Hover effect for cards */
+.card-hover:hover {
+    transform: scale(1.05); /* Slightly increases the card size */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow for emphasis */
+}
+
+/* Hover effect for images */
+.img-hover:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .section-padding2 {
+        padding: 50px 0; /* Adjust padding for smaller screens */
+    }
+}
+.card-body{
+    background-color: aliceblue;
+    /* height: 300px; */
+}
+.card-hover{
+    background-color:rgb(17, 230, 198);
+}
+
+/* .section-padding3{
+    padding: 85px 0;
+} */
+
+/* General Reset */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section Padding */
+.section-padding3 {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container for the cards */
+.container3 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Card Styling */
+.card99 {
+    width: 400px;  /* Card width */
+    height: 350px; /* Card height */
+    background-color: #ecf0f1;  /* Light color for the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+/* Hover Animation for Cards */
+.card-hover:hover {
+    transform: scale(1.05); /* Slightly increases the card size */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Add stronger shadow for emphasis */
+    background-color: #d5f4e6; /* Light green background on hover */
+}
+
+/* Card Heading */
+.card99 h2 {
+    color: #34495e;  /* Dark color for heading */
+    margin-top: 20px;
+}
+
+/* Card Content */
+.card99 p {
+    color: #7f8c8d;  /* Medium gray color for text */
+}
+
+/* Additional Styling */
+.tool {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.size {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.hoo {
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loo {
+    font-size: 23px;
+    margin-top: 23px;
+}
+.pp{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+/* Reset basic styles */
+/* Reset basic styles *//* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:white;
+    margin: 0;
+}
+
+.section-padding4 {
+    padding: 50px 0;
+    background-color: #333; /* Dark gray background for full width */
+    text-align: center; /* Center align the heading */
+    width: 100%; /* Full width */
+}
+
+.container4 {
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-wrap: wrap; /* Allow content to wrap if necessary */
+    padding: 50px 20px; /* Add some padding */
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto; /* Center container */
+    gap: 30px; /* Space between image and form */
+}
+
+.container4 img {
+    margin-right: 130px;
+    max-width: 450px; /* Increase image size */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #fff;
+    color: #333;
+    padding: 30px; /* Increase padding for form */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px; /* Increase form width */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px; /* Slightly larger font size */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Add more space between fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form-container button {
+    background-color: #353434;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Larger button text */
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #5a5656;
+}
+
+/* Heading style */
+.mmm {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    color: #fff; /* White text for contrast */
+}
+.container5{
+    background-color: #34495e;
+}
+.section-padding5{
+padding: 100px 0;
+}
+
+
+/* Footer Styling */
+.section-padding5 {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #777;
+    padding-bottom: 5px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+.bb{
+    background-color: #34495e;
+    margin-bottom: 0;
+    font-size: 40px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     */font-family: 'Times New Roman', Times, serif;
+}
+.nn{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-bottom {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* Footer Styling */
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px 20px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #777;
+    padding-bottom: 5px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Footer Text Classes */
+.bb {
+    background-color: #34495e;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nn {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-bottom {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* ========================product html css========================================== */
+
+body {
+    background-color: white;
+}
+
+.section-padding6 {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.container5 {
+    background-color: white;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.cards-container {
+    height: 800px;
+    background-color: #353434;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping, fit exactly 4 cards */
+}
+
+.horizontal-cards-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: nowrap; /* Prevents cards from wrapping */
+    justify-content: space-between; /* Space evenly for 4 cards */
+}
+
+.horizontal-card {
+    flex: 1 1 calc(25% - 20px); /* Each card takes 25% width minus the gap */
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* height: 4000px; */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.horizontal-card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.horizontal-card .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.horizontal-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.horizontal-card .image-container:hover img {
+    transform: scale(1.1); /* Image animation effect */
+}
+
+.horizontal-card h2 {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.horizontal-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.horizontal-card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.horizontal-card button:hover {
+    background-color: #0056b3;
+}
+
+.cart-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.cart-icon:hover {
+    color: #007bff; /* Color change on hover */
+}
+
+.ll {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vv {
+    font-size: 60px;
+}
+
+.kk {
+    font-size: 60px;
+}
+
+
+.section-padding7 {
+    width: 100%;
+    height: 100vh; /* Viewport height */
+    overflow: hidden; /* To avoid overflow if the image is larger */
+    position: relative;
+}
+
+.section-padding7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+/* ============================================== about section ====================================================== */
+
+ .jj{
+    font-size: 60px;
+ } 
+
+.section-padding8{
+    padding: 70px 0;
+
+}
+.horizontal-card{
+    margin-top: 60px;
+    height: 650px;
+}
+.horizontal-cards-container{
+    width: 100%;
+    height: 800px;
+    background-color: #333;
+}
+
+
+.section-padding9{
+    padding: 70px 0;
+}
+
+
+
+/* ========================================= about section ================================================== */
+
+
+
+
+
+/* Full viewport height section */
+.section-padding10 {
+    padding: 70px 0;
+    margin: 0;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container10 {
+    width: 100%;
+    height: 100%;
+    background-image: url('factory.jpg'); /* Use the image as the background */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    position: relative;
+}
+
+/* Overlay styling */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center;
+}
+
+/* About Us text styling */
+.about-us-text {
+    font-size: 70px; /* Adjust font size */
+    font-weight: bold;
+    color: white; /* White text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+}
+.rr{
+    font-size: 60px;
+}
+
+
+/* new ================================================== section ==================================================== */
+
+.section-padding11{
+    padding: 80px 0;
+}
+
+/* General section styling */
+.section-padding11{
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+/* Container styling */
+.container11{
+    max-width: 1200px; /* Adjust the container's max-width */
+    margin: 0 auto;
+}
+
+/* Card styling */
+.card00{
+    width: 100%; /* Ensure the card takes up the full container width */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    text-align: left; /* Align text to the left */
+}
+
+/* Card title */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Card text */
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
